@@ -1,10 +1,12 @@
 # Assumption
 1. For the second input, assume that inventory is a map since it has the same structure as the first input, which is declared as a map in the problem.
-    Input: { apple: 1 }, [{ name: owd, inventory: { apple: 1 } }]
+
+Input: { apple: 1 }, [{ name: owd, inventory: { apple: 1 } }]
 
 2. According to the output of the second example, assume that the output array should be sorted by the warehouse's name in alphabetical order.
-    Input: { apple: 10 }, [{ name: owd, inventory: { apple: 5 } }, { name: dm, inventory: { apple: 5 }}]
-    Output: [{ dm: { apple: 5 }}, { owd: { apple: 5 } }]
+
+Input: { apple: 10 }, [{ name: owd, inventory: { apple: 5 } }, { name: dm, inventory: { apple: 5 }}]
+Output: [{ dm: { apple: 5 }}, { owd: { apple: 5 } }]
 
 # Test
 ### `npm test`
