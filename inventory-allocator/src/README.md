@@ -7,5 +7,6 @@ Input: { apple: 10 }, [{ name: owd, inventory: { apple: 5 } }, { name: dm, inven
 Output: [{ dm: { apple: 5 }}, { owd: { apple: 5 } }]
 
 # Test
+In the src directory, you can run:
 ### `npm test`
     Launches the test runner.
